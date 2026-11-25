@@ -1,0 +1,12 @@
+shipment_id,dispatch_time,origin,destination,vehicle_type,distance_km,status,delivery_time,distance_missing_flag,dispatch_time_missing_flag
+SHP001,2026-11-01 08:30:00,Delhi,Jaipur,Truck,1250,Delivered,2026-11-02 19:00:00,False,False
+SHP002,2026-11-01 09:10:00,Noida,Agra,Van,800,In Transit,,False,False
+SHP003,2026-11-02 10:00:00,Ghaziabad,Lucknow,Truck,2400,Delivered,2026-11-04 15:20:00,False,False
+SHP004,2026-11-03 11:15:00,Meerut,Delhi,Van,,Pending,,True,False
+SHP005,2026-11-03 12:00:00,Bareilly,Kanpur,Truck,1500,Delayed,2026-11-06 08:00:00,False,False
+SHP006,2026-11-04 07:45:00,Agra,Noida,Mini Truck,950,Delivered,2026-11-04 22:30:00,False,False
+SHP007,,Delhi,Gurugram,Van,600,In Transit,,False,True
+SHP008,2026-11-05 13:20:00,Lucknow,Varanasi,Truck,3100,Delivered,2026-11-07 17:00:00,False,False
+SHP009,2026-11-05 14:00:00,Noida,Delhi,Van,700,In Transit,,False,False
+SHP010,2026-11-06 09:00:00,Kanpur,Prayagraj,Truck,,Pending,,True,False
+SHP011,2026-11-06 09:00:00,Kanpur,Prayagraj,Truck,500,Pending,,False,False
