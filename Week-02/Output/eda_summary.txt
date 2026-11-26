@@ -1,0 +1,47 @@
+Hourly rows: 17,379; columns: 19\nDaily rows: 731; columns: 16\nHourly date range: 2011-01-01 to 2012-12-31\nMissing cells (hourly): 0\nDuplicate rows (hourly): 0\nTotal rentals (hourly): 3,292,679\nMean hourly rentals: 189.46\nMedian hourly rentals: 142.00\n\nDescriptive statistics for key measures:\n           temp     atemp       hum  windspeed    casual  registered       cnt
+count  17379.00  17379.00  17379.00   17379.00  17379.00    17379.00  17379.00
+mean       0.50      0.48      0.63       0.19     35.68      153.79    189.46
+std        0.19      0.17      0.19       0.12     49.31      151.36    181.39
+min        0.02      0.00      0.00       0.00      0.00        0.00      1.00
+25%        0.34      0.33      0.48       0.10      4.00       34.00     40.00
+50%        0.50      0.48      0.63       0.19     17.00      115.00    142.00
+75%        0.66      0.62      0.78       0.25     48.00      220.00    281.00
+max        1.00      1.00      1.00       0.85    367.00      886.00    977.00\n\nMean rentals by hour:\nhr
+0      53.90
+1      33.38
+2      22.87
+3      11.73
+4       6.35
+5      19.89
+6      76.04
+7     212.06
+8     359.01
+9     219.31
+10    173.67
+11    208.14
+12    253.32
+13    253.66
+14    240.95
+15    251.23
+16    311.98
+17    461.45
+18    425.51
+19    311.52
+20    226.03
+21    172.31
+22    131.34
+23     87.83\n\nMean rentals by season:\nseason_name
+Fall      236.02
+Spring    111.11
+Summer    208.34
+Winter    198.87\n\nMean rentals by weather:\nweather_name
+Clear / partly cloudy    204.87
+Heavy rain / snow         74.33
+Light rain or snow       111.58
+Mist / cloudy            175.17\n\nCorrelation with total rentals:\ntemp          0.405
+atemp         0.401
+hum          -0.323
+windspeed     0.093
+casual        0.695
+registered    0.972
+cnt           1.000
